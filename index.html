@@ -104,16 +104,26 @@
         <hr />
         <fieldset class="newsletter">
           <legend>Newletter</legend>
+          <p class="fieldset-description">Select the newsletters you would like to receive</p>
           <div class="form-group">
-            <p class="fieldset-description">Select the newsletters you would like to receive</p>
-            <input type="checkbox" name="user_news" id="html_news" /> <label for="html_news">HTML News</label>
-            <input type="checkbox" name="user_news" id="css" /> <label for="css">CSS News</label>
-            <input type="checkbox" name="user_news" id="javascript" /> <label for="javascript">Javascript News</label>
+            <div class="checkbox-group">
+              <input type="checkbox" name="user_news" id="html_news" /> <label for="html_news">HTML News</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" name="user_news" id="css" /> <label for="css">CSS News</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" name="user_news" id="javascript" /> <label for="javascript">Javascript News</label>
+            </div>
           </div>
+          <p class="fieldset-description">Newsletter format</p>
           <div class="form-group">
-            <p class="fieldset-description">Newsletter format</p>
-            <input type="radio" name="user_format" id="html_format" /> <label for="html_format">HTML</label>
-            <input type="radio" name="user_format" id="plain_text" /> <label for="plain_text">Plain Text</label>
+            <div class="radio-group">
+              <input type="radio" name="user_format" id="html_format" /> <label for="html_format">HTML</label>
+            </div>
+            <div class="radio-group">
+              <input type="radio" name="user_format" id="plain_text" /> <label for="plain_text">Plain Text</label>
+            </div>
           </div>
           <div class="form-group">
             <p class="fieldset-description">Other topics you'd like to hear about</p>

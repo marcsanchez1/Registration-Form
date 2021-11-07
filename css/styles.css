@@ -20,6 +20,7 @@ h3 {
   width: 95%;
   max-width: 600px;
   margin: auto;
+  padding: 0 10px;
 }
 
 /* ======================================
@@ -120,6 +121,13 @@ input::placeholder {
   text-align: right;
   color: #a8adb2;
   font-style: italic;
+}
+
+input[name="user_phone"]::placeholder,
+input[name="user_address"]::placeholder,
+input[name="user_city"]::placeholder,
+input[name="user_zip"]::placeholder {
+  text-align: left;
 }
 
 input:focus,

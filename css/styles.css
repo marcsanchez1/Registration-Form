@@ -223,7 +223,7 @@ button[type="submit"]:hover {
   }
 
   input[id="zip"] {
-    width: 30%;
+    width: 25%;
     justify-content: flex-start;
     margin-right: auto;
   }

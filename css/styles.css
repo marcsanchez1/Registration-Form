@@ -199,6 +199,10 @@ button[type="submit"]:hover {
   font-style: italic;
 }
 
+/* ======================================
+              MEDIA QUERIES
+========================================*/
+
 @media (min-width: 768px) {
   .form-group {
     flex-direction: row;
